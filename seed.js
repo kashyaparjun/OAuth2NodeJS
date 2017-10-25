@@ -2,7 +2,7 @@ var app = require('./server');
 var models = require('./models');
 
 models.User.create({
-  email: 'alex@example.com',
+  email: 'monkey@monkey.com',
   hashed_password: '$2a$10$aZB36UooZpL.fAgbQVN/j.pfZVVvkHxEnj7vfkVSqwBOBZbB/IAAK'
 }, function() {
   models.OAuthClientsModel.create({
